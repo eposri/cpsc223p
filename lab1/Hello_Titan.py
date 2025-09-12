@@ -3,7 +3,7 @@
 # 8/27/2025
 
 print('Hello')
-print('Date of Birth: April 27, 2000')
+print('Date of Birth: 4/27/2000')
 print('Name: Kayla Ngo')
 print('Number of Programming Languages Known: 3')
 
