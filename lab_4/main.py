@@ -26,7 +26,7 @@ def parse_input(prompt):
 
 def menu():
     print("Choose an option:")
-    print("1. Tuple operations")
+    print("1. Tuple Operations")
     print("2. Set Operations")
     print("3. Stack Operations")
     print("4. Queue Operations")
