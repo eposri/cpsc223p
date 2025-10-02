@@ -101,7 +101,7 @@ def reverse_and_sort(lst):
     1. the reversed list
     2. the sorted list
     '''
-    return (reversed(lst), sorted(lst))
+    return (list(reversed(lst)), sorted(lst))
 
 
 # Conditions and Sequence Comparisons
@@ -131,7 +131,7 @@ def compare_sequences(seq1, seq2):
             `1` if `seq1 > seq2`.
     '''
     if seq1 < seq2:
-        return -2
+        return -1
     elif seq1 == seq2:
         return 0
     else:
