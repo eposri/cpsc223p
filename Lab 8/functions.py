@@ -56,6 +56,8 @@ def view_students(data):
         print('No students found.')
     else:
         print("Student Records:")
-        for student in data:
-            print(f"Name: {student['name']}, Age: {student['age']}")
+        for idx, student in enumerate(data, start=1):
+            print(f"{idx}. Name: {student['name']}, Age: {student['age']}")
+        #for student in data:
+            #print(f"Name: {student['name']}, Age: {student['age']}")
             #print(f"   Age: {student['age']}")
