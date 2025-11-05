@@ -26,7 +26,8 @@ def main():
         elif choice == 'divide':
             result = math_operations.divide(x, y)
         else:
-            print("Invalid operation! Please enter one of: add, subtract, multiply, divide")
+            print("Invalid operation!" \
+            "Please enter one of the following: add, subtract, multiply, divide")
             return
         
         if result is not None:
@@ -35,7 +36,7 @@ def main():
             print("Cannot divide by zero!")
     
     except ValueError:
-        print("Invalid input! Please enter number")
+        print("Invalid input! Please enter number.")
 
 if __name__ == "__main__":
     main()
